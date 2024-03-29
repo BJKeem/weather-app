@@ -1,0 +1,114 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif, 'poppins';
+}
+.logo{
+    padding: -2px 10px;
+    margin: -20px;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 15px 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li{
+    margin-right: 30px ;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 12px;
+    padding: 9px 10px;
+    border-radius: 35%;
+}
+ul li .active{
+    background-color: rgba(121, 118, 118, 0.9);
+    margin-left: 180px;
+    font-size: 12px;
+}
+ul li a:hover{
+    text-decoration-line: underline;
+    color: blueviolet;
+}
+ul li .active:hover{
+    color: #ffff;
+    background-color: blueviolet;
+}
+.upper{
+    background: url(unsplash-NuFUbftUu_s-unsplash.jpg);
+    background-color: rgba(65, 64, 65, 0.9);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 100%;
+    max-height: 80vh;
+}
+.flexcont{
+    display: flex;
+}
+.phone{
+    margin-top: 10%;
+    margin-right: -150px;
+}
+.content{
+    margin-top: 10%;
+    margin-right: 0px;
+}
+.content h1{
+    color: #ffff;
+    font-size: 30px;
+}
+.content p{
+    color: #ffff;
+    font-size: 14px;
+}
+button{
+    
+    background-color: #ffff;
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px;
+    border: solid 2px white;
+}
+button a{
+    text-decoration: none;
+    color: purple;
+    font-weight: 300;
+}
+button:hover{
+    background: transparent;
+}
+.lower .lowco{
+    margin-left: 46%;
+    margin-top: 5%;
+}
+   
+    
+.lower p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    hyphens:initial;
+}
+.lower h3{
+    color: blue;
+    text-align: center;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+/* Portrait iphone 6 to 8 */
+@media only screen
+ and (min-width: 376px)
+ and (max-width: 667px)
+ and (-webkit-mini-device-pixel-ratio: 2)
+ and (oreientation: portrait){
+    }
